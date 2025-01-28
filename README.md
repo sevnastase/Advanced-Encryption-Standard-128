@@ -33,7 +33,7 @@ Firstly, let us define keyExpansion, which is performed on the initial key, rath
 Let us define the operations performed on an arbitrary block of the input.
 - subBytes: given S_BOX (see section 7 "Relevant numerical values"), for every element in block, look up its corresponding S_BOX value and assign that value to it.
 - shiftRows: For i form 0 to 3, on the i-th row of the block, shift the elements i cells to the left.
-- mixColumns: given the Galois matrix (see section 7 "Relevant numerical values"), multiply it in the Galois field GF(2^8) with every column in the block. 
+- mixColumns: given the Galois matrix (see section 7 "Relevant numerical values"), multiply it in the Galois field **GF(256)** with every column in the block. 
 - addRoundKey: XOR the block with its corresponding round key. addRoundKey also takes the corresponding round key as a parameter, along with the block.
 
 ### AES-128 structure
@@ -98,7 +98,6 @@ R_CON = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1B, 0x36}
   {0x01, 0x02, 0x03, 0x01},
   {0x01, 0x01, 0x02, 0x03},
   {0x03, 0x01, 0x01, 0x02}
-
 }
 
 
