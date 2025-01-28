@@ -53,17 +53,17 @@ In the last round, perform all operations except for mixColumns. Last round look
 ### Project configuration
 
 Clone the repository.
-`git clone https://github.com/sevnastase/Advanced-Encryption-Standard-128.git`
+`git clone https://github.com/sevnastase/Advanced-Encryption-Standard-128.git`.
 Navigate to directory.
-`cd Advanced-Encryption-Standard-128`
+`cd Advanced-Encryption-Standard-128`.
 
 
 ### Compilation and execution
 
-Ensure GCC compiler is installed. This project was compiled using G++. To verify G++ is installed on system, run: `g++ --version`
+Ensure GCC compiler is installed. This project was compiled using G++. To verify G++ is installed on system, run: `g++ --version`.
 In terminal, run the following commands:
-`g++ <source_file_name> -o <output_file_name>` (to compile the program using G++ compiler)
-`.\<path_to_output_file>` (execute compiled program on system)
+`g++ <source_file_name> -o <output_file_name>` (to compile the program using G++ compiler).
+`.\<path_to_output_file>` (execute compiled program on system).
 Then, provide necessary input (in raw bytes).
 
 ### Relevant numerical values
@@ -99,5 +99,4 @@ R_CON = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1B, 0x36}
   {0x01, 0x01, 0x02, 0x03},
   {0x03, 0x01, 0x01, 0x02}
 }
-
 
